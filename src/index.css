@@ -22,3 +22,19 @@
     @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg;
   }
 }
+
+.logo {
+  height: 60px;
+}
+
+@media (min-width: 600px) {
+  .logo {
+    height: 100px;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo {
+    height: 110px;
+  }
+}
