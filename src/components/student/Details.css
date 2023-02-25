@@ -1,0 +1,11 @@
+.ListItem {
+    list-style-type:none;
+    color:#6D28D9;
+}
+
+.GridContainer{
+    padding: 1%;
+    border: 2px solidS;
+    border-radius: 5px;
+    display: 'inline-flex',
+}
