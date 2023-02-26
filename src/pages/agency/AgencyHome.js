@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import { keyframes } from '@mui/styled-engine';
 
+
 const fadeIn = keyframes`
   0% {
     opacity: 0;
@@ -29,6 +30,7 @@ const AgencyHome = () => {
     <Box sx={{ py: 10 ,marginRight: '3rem' ,marginleft: '3rem' }}>
       <Title>Welcome AGENCY <br/>WE ARE GONING <br/>TO FUCK U...</Title>
     </Box>
+   
   );
 };
 
